@@ -35,7 +35,7 @@ pnpm install
 Data Table:
 The Data Table displays information from the dummyjson.com/products API. 
 
-Bar Chart Visualization
+Bar Chart Visualization:
 The Bar Chart uses the Plotly.js library for data visualization. 
 
 ## Run
