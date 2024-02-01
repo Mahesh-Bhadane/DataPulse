@@ -6,14 +6,12 @@ DataPulse is a web application built using ReactJS, TypeScript, Tailwind CSS, an
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Build](#build)
 - [Run](#run)
 
 ## Prerequisites
 
 Before you begin, ensure you have the following tools installed on your machine:
 
-- [Node.js](https://nodejs.org/)
 - [pnpm](https://pnpm.io/)
 - [Vite](https://vitejs.dev/)
 
@@ -24,3 +22,24 @@ Clone the repository:
 ```bash
 git clone https://github.com/your-username/DataPulse.git
 cd DataPulse
+```
+
+Install dependencies:
+
+```bash
+pnpm install
+```
+
+## Usage
+
+Data Table:
+The Data Table displays information from the dummyjson.com/products API. 
+
+Bar Chart Visualization
+The Bar Chart uses the Plotly.js library for data visualization. 
+
+## Run
+
+```bash
+pnpm dev
+```
